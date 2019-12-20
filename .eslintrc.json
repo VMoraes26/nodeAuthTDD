@@ -18,8 +18,18 @@
     "rules": {
         "linebreak-style": 0,
         "global-require": 0,
-        "semi": ["error","never"],
-        "indent": ["error", 2],
-        "max-len":0
+        "semi": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "max-len": 0,
+        "class-methods-use-this": "off",
+        "arrow-body-style": 0,
+        "no-param-reassign": "off",
+        "func-names": "off"
     }
 }

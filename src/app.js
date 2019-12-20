@@ -10,7 +10,6 @@ class AppController {
 
     this.middlewares()
     this.routes()
-    console.log(process.env.DB_DIALECT)
   }
 
   middlewares() {

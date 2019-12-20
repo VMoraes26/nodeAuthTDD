@@ -1,2 +1,4 @@
 node_modules/
 yarn.lock
+__tests/coverage
+__tests/database.sqlite

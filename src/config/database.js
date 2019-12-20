@@ -8,7 +8,7 @@ module.exports = {
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
   dialect: process.env.DB_DIALECT || 'mysql',
-  storage: './__tests__/database.sqlite',
+  storage: './__tests/database.sqlite',
   logging: false,
   define: {
     timestamps: true,
